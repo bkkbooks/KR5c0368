@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0368/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0368/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 龍角山記
+  date: '2015-08-29 00:57:01.043534'
+  source:
+    repository: kanripo
+    path: KR5c0368
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0368_000-ZTDZ.yaml, hash: 'sha256:f18dd8505a6f0f97c066520c08d67cc7016ac42b5cb5ae2dcf20c5bc8a44710a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0368_000-ZTDZ.markers.yaml, hash: 'sha256:a289171451a119e258ef558899348b9c76f2ce5aa65976c884879f787acc7b68'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0368_SJB_000-190692b
+    span:
+    - body
+    - 0
+    - 7928
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b0e99b32e7827a064987d81ca7dad89da773e87c39f93a26b43c0e8551a6d471
